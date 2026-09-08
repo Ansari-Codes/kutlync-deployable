@@ -1,0 +1,1 @@
+import{i as e,t}from"./Index.serve-D9_O2EGw.js";async function n(n=30){let r=await t(`${e.ANALYTICS}?days=${n}`,{},{method:`GET`});if(!r.success)throw Error(r.message);return r}export{n as serveAnalytics};
