@@ -1,1 +1,0 @@
-import{i as e,t}from"./Index.serve-BmQeAVF3.js";async function n(n=30){let r=await t(`${e.ANALYTICS}?days=${n}`,{},{method:`GET`});if(!r.success)throw Error(r.message);return r}export{n as serveAnalytics};
